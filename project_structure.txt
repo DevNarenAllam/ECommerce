@@ -1,0 +1,48 @@
+my_microservice/
+├── alembic/
+│   ├── versions/
+│   ├── env.py
+│   ├── script.py.mako
+│   └── ...
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── security.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── deps.py
+│   │   └── routers/
+│   │       ├── __init__.py
+│   │       ├── products.py
+│   │       └── ...
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── product.py
+│   │   └── ...
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── product.py
+│   │   └── ...
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── product_service.py
+│   │   └── ...
+│   └── db/
+│       ├── __init__.py
+│       ├── base.py
+│       ├── session.py
+│       └── ...
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_products.py
+│   └── ...
+├── .env
+├── .gitignore
+├── requirements.txt
+├── alembic.ini
+├── README.md
+└── Dockerfile
